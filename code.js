@@ -27,10 +27,10 @@ body.after(s)
 d3.selectAll("div.alpha-group a").nodes().forEach(function(e){console.log(e.innerText)})
 
 
-/*  All of CS major core courses in Stanford University*/
+/*  All Majors in Furman University  */
 var s=document.createElement("script")
 s.src="https://d3js.org/d3.v5.js"
 var body=document.getElementsByTagName("body")
 var body=document.getElementsByTagName("body")[0]
 body.after(s)
-d3.selectAll("h4").nodes().forEach(function(e){console.log(e.innerText)})
+d3.selectAll("div.panel_active ul.degrees-content__list:first-of-type").nodes().forEach(function(e){console.log(e.innerText)})
